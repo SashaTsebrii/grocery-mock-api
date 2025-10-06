@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Bananas", "category": "Fruit", "price": 0.59, "unit": "each", "inStock": true, "tags": ["yellow","ripe"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/bananas.png" },
+  { "id": 2, "name": "Apples", "category": "Fruit", "price": 1.29, "unit": "each", "inStock": true, "tags": ["red","sweet"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/apples.png" },
+  { "id": 3, "name": "Oranges", "category": "Fruit", "price": 0.99, "unit": "each", "inStock": true, "tags": ["citrus"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/oranges.png" },
+  { "id": 4, "name": "Blueberries", "category": "Fruit", "price": 3.49, "unit": "box", "inStock": true, "tags": ["berries"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/blueberries.png" },
+  { "id": 5, "name": "Spinach", "category": "Vegetable", "price": 2.49, "unit": "bag", "inStock": true, "tags": ["greens"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/spinach.png" },
+  { "id": 6, "name": "Broccoli", "category": "Vegetable", "price": 1.99, "unit": "lb", "inStock": true, "tags": [], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/broccoli.png" },
+  { "id": 7, "name": "Carrots", "category": "Vegetable", "price": 0.89, "unit": "lb", "inStock": true, "tags": ["organic"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/carrots.png" },
+  { "id": 8, "name": "Tomatoes", "category": "Vegetable", "price": 2.29, "unit": "lb", "inStock": true, "tags": ["fresh"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/tomatoes.png" },
+  { "id": 9, "name": "Cucumber", "category": "Vegetable", "price": 1.29, "unit": "each", "inStock": true, "tags": ["green"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/cucumber.png" },
+  { "id": 10, "name": "Milk", "category": "Dairy", "price": 3.19, "unit": "gallon", "inStock": true, "tags": ["2%"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/milk.png" }
+]
