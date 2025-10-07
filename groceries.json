@@ -1,12 +1,134 @@
-[
-  { "id": 1, "name": "Bananas", "category": "Fruit", "price": 0.59, "unit": "each", "inStock": true, "tags": ["yellow","ripe"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/bananas.png" },
-  { "id": 2, "name": "Apples", "category": "Fruit", "price": 1.29, "unit": "each", "inStock": true, "tags": ["red","sweet"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/apples.png" },
-  { "id": 3, "name": "Oranges", "category": "Fruit", "price": 0.99, "unit": "each", "inStock": true, "tags": ["citrus"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/oranges.png" },
-  { "id": 4, "name": "Blueberries", "category": "Fruit", "price": 3.49, "unit": "box", "inStock": true, "tags": ["berries"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/blueberries.png" },
-  { "id": 5, "name": "Spinach", "category": "Vegetable", "price": 2.49, "unit": "bag", "inStock": true, "tags": ["greens"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/spinach.png" },
-  { "id": 6, "name": "Broccoli", "category": "Vegetable", "price": 1.99, "unit": "lb", "inStock": true, "tags": [], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/broccoli.png" },
-  { "id": 7, "name": "Carrots", "category": "Vegetable", "price": 0.89, "unit": "lb", "inStock": true, "tags": ["organic"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/carrots.png" },
-  { "id": 8, "name": "Tomatoes", "category": "Vegetable", "price": 2.29, "unit": "lb", "inStock": true, "tags": ["fresh"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/tomatoes.png" },
-  { "id": 9, "name": "Cucumber", "category": "Vegetable", "price": 1.29, "unit": "each", "inStock": true, "tags": ["green"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/cucumber.png" },
-  { "id": 10, "name": "Milk", "category": "Dairy", "price": 3.19, "unit": "gallon", "inStock": true, "tags": ["2%"], "imageUrl": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/milk.png" }
-]
+{
+  "request": [
+    {
+      "id": 1,
+      "name": "Bananas",
+      "description": "Ripe yellow bananas, great for snacks or smoothies.",
+      "category": "Fruit",
+      "unit": "each",
+      "tags": ["yellow", "ripe"],
+      "protein": 1,
+      "calories": 89,
+      "carbs": 23,
+      "price": 0.59,
+      "imageURL": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/bananas.png"
+    },
+    {
+      "id": 2,
+      "name": "Apples",
+      "description": "Crisp red apples with a sweet flavor.",
+      "category": "Fruit",
+      "unit": "each",
+      "tags": ["red", "sweet"],
+      "protein": 0,
+      "calories": 52,
+      "carbs": 14,
+      "price": 1.29,
+      "imageURL": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/apples.png"
+    },
+    {
+      "id": 3,
+      "name": "Oranges",
+      "description": "Juicy citrus oranges rich in vitamin C.",
+      "category": "Fruit",
+      "unit": "each",
+      "tags": ["citrus"],
+      "protein": 1,
+      "calories": 47,
+      "carbs": 12,
+      "price": 0.99,
+      "imageURL": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/oranges.png"
+    },
+    {
+      "id": 4,
+      "name": "Blueberries",
+      "description": "Sweet blueberries perfect for breakfasts and baking.",
+      "category": "Fruit",
+      "unit": "box",
+      "tags": ["berries"],
+      "protein": 1,
+      "calories": 57,
+      "carbs": 14,
+      "price": 3.49,
+      "imageURL": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/blueberries.png"
+    },
+    {
+      "id": 5,
+      "name": "Spinach",
+      "description": "Fresh green spinach leaves for salads or sautés.",
+      "category": "Vegetable",
+      "unit": "bag",
+      "tags": ["greens"],
+      "protein": 3,
+      "calories": 23,
+      "carbs": 4,
+      "price": 2.49,
+      "imageURL": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/spinach.png"
+    },
+    {
+      "id": 6,
+      "name": "Broccoli",
+      "description": "Tender broccoli crowns, great roasted or steamed.",
+      "category": "Vegetable",
+      "unit": "lb",
+      "tags": [],
+      "protein": 3,
+      "calories": 34,
+      "carbs": 7,
+      "price": 1.99,
+      "imageURL": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/broccoli.png"
+    },
+    {
+      "id": 7,
+      "name": "Carrots",
+      "description": "Bright orange carrots with natural sweetness.",
+      "category": "Vegetable",
+      "unit": "lb",
+      "tags": ["organic"],
+      "protein": 1,
+      "calories": 41,
+      "carbs": 10,
+      "price": 0.89,
+      "imageURL": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/carrots.png"
+    },
+    {
+      "id": 8,
+      "name": "Tomatoes",
+      "description": "Vine-ripe tomatoes with fresh garden flavor.",
+      "category": "Vegetable",
+      "unit": "lb",
+      "tags": ["fresh"],
+      "protein": 1,
+      "calories": 18,
+      "carbs": 4,
+      "price": 2.29,
+      "imageURL": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/tomatoes.png"
+    },
+    {
+      "id": 9,
+      "name": "Cucumber",
+      "description": "Cool, crunchy cucumbers for salads and snacks.",
+      "category": "Vegetable",
+      "unit": "each",
+      "tags": ["green"],
+      "protein": 1,
+      "calories": 15,
+      "carbs": 4,
+      "price": 1.29,
+      "imageURL": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/cucumber.png"
+    },
+    {
+      "id": 10,
+      "name": "Milk",
+      "description": "2% reduced-fat milk in a gallon jug.",
+      "category": "Dairy",
+      "unit": "gallon",
+      "tags": ["2%"],
+      "protein": 8,
+      "calories": 122,
+      "carbs": 12,
+      "price": 3.19,
+      "imageURL": "https://raw.githubusercontent.com/SashaTsebrii/grocery-mock-api/main/images/milk.png"
+    }
+  ]
+}
